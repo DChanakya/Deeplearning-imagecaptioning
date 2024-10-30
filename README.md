@@ -16,8 +16,6 @@ This project focuses on building an image captioning model that generates meanin
    - **Dataset Splitting**: Data is divided into training, validation, and test sets, with generator functions utilized to optimize memory usage during training.
    - **Memory Optimization**: Using data generators, this implementation is optimized for memory management. Batch processing of images and captions ensures that even with limited hardware, the model can be trained efficiently without exhausting system resources.
 
-## Approach
-
 ### 2. Model Architecture
 1. **Image Feature Extraction (CNN):** We will use a pretrained CNN, such as VGG16 or ResNet, for image feature extraction. This will allow the model to learn visual features efficiently by leveraging transfer learning.
 2. **Caption Generation (RNN with LSTM):** A Long Short-Term Memory (LSTM) based RNN will process the extracted image features and generate captions word-by-word.
