@@ -20,7 +20,10 @@ This project focuses on building an image captioning model that generates meanin
 1. **Image Feature Extraction (CNN):** We will use a pretrained CNN, such as VGG16 or ResNet, for image feature extraction. This will allow the model to learn visual features efficiently by leveraging transfer learning.
 2. **Caption Generation (RNN with LSTM):** A Long Short-Term Memory (LSTM) based RNN will process the extracted image features and generate captions word-by-word.
 3. **Attention Mechanism:** To improve caption relevance and alignment with image content, we will integrate an attention mechanism that helps the model focus on specific image regions during the caption generation process.
+
+
 ![image](https://github.com/user-attachments/assets/c6c40aa4-3e7b-43db-94bb-a3ed3a3302d0)
+
 
 ### 3. Training Procedure
    - **Training Strategy**: For each image, the encoder processes the image features, and the decoder receives these features along with partial captions. At each time step, the model predicts the next word in the caption sequence.
